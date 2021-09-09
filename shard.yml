@@ -1,0 +1,19 @@
+name: my_blog
+version: 0.1.0
+
+authors:
+  - Benji <daylightsavings@gmail.com>
+
+targets:
+  my_blog:
+    main: src/my_blog.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  graphql:
+    github: graphql-crystal/graphql    
+
+crystal: 1.1.1
+
+license: MIT
